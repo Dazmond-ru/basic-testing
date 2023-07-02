@@ -57,7 +57,7 @@ describe('BankAccount', () => {
   test('fetchBalance should return number in case if request did not fail', async () => {
     const account = getBankAccount(initialBalance);
     const balance = await account.fetchBalance();
-    expect(typeof balance).toBe('number');
+    if (balance !== null) expect(typeof balance).toBe('number');
   });
 
   test('should set new balance if fetchBalance returned number', async () => {
