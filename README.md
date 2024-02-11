@@ -5,11 +5,11 @@
 ---
 
 ### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
+1. Install [Node.js](https://nodejs.org/en/download/)
 2. Fork this repository: https://github.com/AlreadyBored/basic-testing
-3. Clone your newly created repo locally: https://github.com/<%your_github_username%>/basic-testing/  
-4. Go to folder `basic-testing`  
-5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
+3. Clone your newly created repo locally: https://github.com/<%your_github_username%>/basic-testing/
+4. Go to folder `basic-testing`
+5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)
 6. Run **test scripts** in command line.
 7. You will see the number of skipped, passing and failing tests.
 
@@ -28,13 +28,13 @@ $ npm run test:verbose
 ---
 
 #### Notes
-1. We recommend you to use Node.js of version 18.x.x LTS. If you use any of features, that does not supported by Node.js v18, there may be problems with task submit.
+1. We recommend you to use Node.js of version 20.x.x LTS. If you use any of features, that does not supported by Node.js v18, there may be problems with task submit.
 2. Please, be sure that each of your tests is limited to 30 sec.
 
 ---
 
 ## General task description
-Your task is to write unit tests for code, provided in file `index.ts`. 
+Your task is to write unit tests for code, provided in file `index.ts`.
 
 ---
 
